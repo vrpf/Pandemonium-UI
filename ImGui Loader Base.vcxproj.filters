@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="imgui-docking\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui-docking\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Archivex.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Byte.hpp">
+      <Filter>imgui\Imgui Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>imgui\Imgui Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor2.hpp">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Keyauth</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8cf77124-bebc-471d-acac-8b9b1ffc2a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{d71e4930-b2f1-4bce-8ddd-689e8e139efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e87dbfa2-73b4-40ba-8897-47dbb3b3271b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{84d3c45a-d0e6-4a9e-8526-def5eaa7aa82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\Imgui Extra">
+      <UniqueIdentifier>{c0849bdd-c609-4c04-976b-ca17ac27868e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keyauth">
+      <UniqueIdentifier>{cddb2d94-fdd6-41c7-9a8c-f062135046d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Users\damo\source\repos\MetaSpoofer UI\libcurl.lib" />
+    <Library Include="C:\Users\damo\source\repos\MetaSpoofer UI\library_x64.lib" />
+  </ItemGroup>
+</Project>
